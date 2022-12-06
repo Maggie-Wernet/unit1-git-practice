@@ -166,8 +166,85 @@ maggiewernet@Maggies-iMac unit1-git-practice % rm -r drinks
 
 ### Step 4
 
+maggiewernet@Maggies-iMac unit1-git-practice % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/maggiewernet/Desktop/unit1-git-practice/.git/
+maggiewernet@Maggies-iMac unit1-git-practice % git add .
+maggiewernet@Maggies-iMac unit1-git-practice % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   my-steps.txt
+	new file:   plants/carrot.txt
+	new file:   plants/pea.txt
+	new file:   proteins/meats/crab.txt
+	new file:   proteins/tofu.txt
+	new file:   sweets/donut.txt
+	new file:   veggies/carrot.txt
+	new file:   veggies/pea.txt
+
+maggiewernet@Maggies-iMac unit1-git-practice % git commit -m "First commit for unit 3"
+[master (root-commit) b7e198d] First commit for unit 3
+ 9 files changed, 177 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 ### Step 5
+
+maggiewernet@Maggies-iMac unit1-git-practice % git remote add origin https://github.com/Maggie-Wernet/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+Username for 'https://github.com': Maggie-Wernet
+Password for 'https://Maggie-Wernet@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Maggie-Wernet/unit1-git-practice.git/'
+maggiewernet@Maggies-iMac unit1-git-practice % git remote add origin https://github.com/Maggie-Wernet/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+
+error: remote origin already exists.
+Username for 'https://github.com': Maggie-Wernet
+Password for 'https://Maggie-Wernet@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Maggie-Wernet/unit1-git-practice.git/'
+maggiewernet@Maggies-iMac unit1-git-practice % git remote add origin https://github.com/Maggie-Wernet/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+error: remote origin already exists.
+Username for 'https://github.com': Maggie-Wernet
+Password for 'https://Maggie-Wernet@github.com': 
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1.54 KiB | 1.54 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Maggie-Wernet/unit1-git-practice.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+maggiewernet@Maggies-iMac unit1-git-practice % 
 
 
 ### Step 6
