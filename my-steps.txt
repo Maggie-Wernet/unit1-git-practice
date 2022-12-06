@@ -1,0 +1,177 @@
+### Step 2A
+
+maggiewernet@Maggies-iMac Grand Circus % pwd
+/Users/maggiewernet/documents/Grand Circus
+
+
+### Step 2B
+
+maggiewernet@Maggies-iMac Grand Circus % cd ~
+maggiewernet@Maggies-iMac ~ % ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+maggiewernet@Maggies-iMac ~ % cd desktop
+maggiewernet@Maggies-iMac desktop % 
+
+
+### Step 2C
+ 
+maggiewernet@Maggies-iMac desktop % cd unit1-git-practice 
+maggiewernet@Maggies-iMac unit1-git-practice % 
+
+### Step 2D
+
+maggiewernet@Maggies-iMac unit1-git-practice % pwd
+/Users/maggiewernet/desktop/unit1-git-practice
+
+### Step 2E
+
+maggiewernet@Maggies-iMac unit1-git-practice % ls
+
+
+### Step 2F
+
+my-steps.txt
+
+### Step 2G
+
+maggiewernet@Maggies-iMac unit1-git-practice % cd ~
+maggiewernet@Maggies-iMac ~ % 
+
+### Step 2H
+
+maggiewernet@Maggies-iMac ~ % pwd
+/Users/maggiewernet
+
+### Step 2I
+
+maggiewernet@Maggies-iMac ~ % ls
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+
+### Step 2J
+
+maggiewernet@Maggies-iMac ~ % cd ~
+maggiewernet@Maggies-iMac ~ % 
+
+### Step 2K
+
+maggiewernet@Maggies-iMac ~ % cd desktop
+maggiewernet@Maggies-iMac desktop % cd unit1-git-practice 
+maggiewernet@Maggies-iMac unit1-git-practice % 
+
+### Step 3A
+
+maggiewernet@Maggies-iMac unit1-git-practice % mkdir veggies
+maggiewernet@Maggies-iMac unit1-git-practice % ls
+my-steps.txt	veggies
+maggiewernet@Maggies-iMac unit1-git-practice % mkdir meats
+maggiewernet@Maggies-iMac unit1-git-practice % mkdir desserts
+maggiewernet@Maggies-iMac unit1-git-practice % 
+
+### Step 3B
+
+maggiewernet@Maggies-iMac unit1-git-practice % mv desserts sweets
+
+### Step 3C
+
+maggiewernet@Maggies-iMac unit1-git-practice % mkdir proteins
+
+### Step 3D
+
+maggiewernet@Maggies-iMac unit1-git-practice % mv meats proteins
+maggiewernet@Maggies-iMac unit1-git-practice % ls
+my-steps.txt	proteins	sweets		veggies
+maggiewernet@Maggies-iMac unit1-git-practice % cd veggies
+
+### Step 3E
+
+maggiewernet@Maggies-iMac veggies % touch carrot.txt
+maggiewernet@Maggies-iMac veggies % ls
+carrot.txt
+maggiewernet@Maggies-iMac veggies % touch pea.txt
+maggiewernet@Maggies-iMac veggies % ls
+carrot.txt	pea.txt
+
+### Step 3F  
+
+maggiewernet@Maggies-iMac veggies % cd ~
+maggiewernet@Maggies-iMac ~ % ls       
+Applications		Downloads		Pictures
+Creative Cloud Files	Library			Public
+Desktop			Movies
+Documents		Music
+maggiewernet@Maggies-iMac ~ % cd desktop
+maggiewernet@Maggies-iMac desktop % ls
+Cooking with Zeke
+Get Healthy
+MSA 
+Personal
+Screen Shot 2022-12-05 at 6.10.52 PM.png
+unit1-git-practice
+maggiewernet@Maggies-iMac desktop % cd unit1-git-practice 
+maggiewernet@Maggies-iMac unit1-git-practice % cd sweets
+maggiewernet@Maggies-iMac sweets % touch cookie.txt
+maggiewernet@Maggies-iMac sweets % ls
+cookie.txt
+
+### Step 3G
+
+maggiewernet@Maggies-iMac sweets % mv cookie.txt donut.txt
+maggiewernet@Maggies-iMac sweets % ls
+donut.txt
+
+### Step 3H
+
+maggiewernet@Maggies-iMac sweets % cd ..
+maggiewernet@Maggies-iMac unit1-git-practice % touch thing.txt
+
+### Step 3I
+
+maggiewernet@Maggies-iMac unit1-git-practice % cp thing.txt tofu.txt
+
+### Step 3J
+
+maggiewernet@Maggies-iMac unit1-git-practice % mv tofu.txt proteins
+
+### Step 3K
+
+aggiewernet@Maggies-iMac unit1-git-practice % cp thing.txt crab.txt
+maggiewernet@Maggies-iMac unit1-git-practice % ls
+crab.txt	proteins	thing.txt
+my-steps.txt	sweets		veggies
+maggiewernet@Maggies-iMac unit1-git-practice % mv crab.txt proteins
+maggiewernet@Maggies-iMac unit1-git-practice % cd proteins
+maggiewernet@Maggies-iMac proteins % mv crab.txt meats
+
+### Step 3L
+
+maggiewernet@Maggies-iMac unit1-git-practice % rm thing.txt
+
+### Step 3M
+
+maggiewernet@Maggies-iMac unit1-git-practice % cp -r veggies plants
+maggiewernet@Maggies-iMac unit1-git-practice % ls
+my-steps.txt	plants		proteins	sweets		veggies
+
+### Step 3N
+
+maggiewernet@Maggies-iMac unit1-git-practice % mkdir drinks
+maggiewernet@Maggies-iMac unit1-git-practice % rm -r drinks
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
